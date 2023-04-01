@@ -500,7 +500,6 @@ void order(int operation) {
           continue;
         }
         sequence(initPanels);
-        print('$i$ii$iii');
         if (initPanels.values.every((element) => element == '-')) {
           print('結果');
           print(first[i]);
